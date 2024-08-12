@@ -1,0 +1,54 @@
+.join-container{
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    font-weight: bold;
+    align-items: center;
+    color: white;
+}
+.join-container>div{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.join-container>div:nth-child(3){
+    margin: 2rem;
+    width: 70%;
+    border-radius: 5rem;
+}
+.join-container>form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+}
+.join-container>form>input{
+    width: 30%;
+    height: 3rem;
+    border-radius: 5rem;
+    border: none;
+    outline: none;
+    padding-left: 2rem;
+    font-size: 2rem;
+    color: var(--deeppink);
+}
+.join-container>form>button{
+    width: 20%;
+    height: 3rem;
+    border-radius: 5rem;
+    border: none;
+    background-image: var(--planCard2);
+    color:white;
+    font-weight: bold;
+}
+.blur-join-r{
+    width: 22rem;
+    height: 20rem;
+    right: 0;
+}
+.blur-join-l{
+    width: 22rem;
+    height: 20rem;
+    left: 0;
+}
